@@ -1,0 +1,2 @@
+# vscode-snippets
+my snippets
