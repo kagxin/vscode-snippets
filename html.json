@@ -1,0 +1,29 @@
+{
+	"html_template":{
+		"prefix":"htmlm",
+		"body":[
+			"<!DOCTYPE html>",
+			"<html lang=\"zh-CN\">",
+			"<head>",
+				"\t<meta charset=\"utf-8\">",
+				"\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+				"\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+				"\t<title>Template</title>",
+				"\t<link href=\"https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css\" rel=\"stylesheet\">",
+
+			"</head>",
+			"<body>",
+				"\t<h1>你好，世界！</h1>\n",
+
+				"\t<script src=\"https://cdn.bootcss.com/jquery/3.3.1/jquery.js\"></script>",
+				"\t<script src=\"https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>",
+				"\t<script src=\"http://malsup.github.com/jquery.form.js\"></script>",
+				"\t<script>\n",
+
+				"\t</script>",
+			"</body>",
+			"</html>"
+		],
+		"description": "html template for me."
+	}
+}

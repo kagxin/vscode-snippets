@@ -1,0 +1,24 @@
+{
+	"ajaxform_sinppts":{
+		"prefix":"ajaxform",
+		"body":[
+			"var options = {",
+				"\theaders:{\"X-CSRFToken\": $.getCookie('csrftoken')},",
+				"\tbeforeSubmit:  showRequest,",
+				"\tsuccess:       showResponse,",
+				"\terror:         showErrorResponse,",
+			"}",
+			"$(\"${1:formId}\").ajaxForm(options);\n",
+	
+			"function showRequest(formData, jqForm, options) {\n",
+
+			"}",
+			"function showResponse(responseText, statusText, xhr, $form)  {\n",
+
+			"}",
+			"function showErrorResponse() {\n",
+			"}",
+		],
+		"description": "sinppt for ajaxform."
+	}
+}
